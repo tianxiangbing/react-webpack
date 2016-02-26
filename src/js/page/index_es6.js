@@ -1,10 +1,10 @@
 import plugin from "../componet/plugin_es6";
 plugin();
 import React from "react";
-import hello from "../componet/hello";
+import Hello from "../componet/hello";
 React.render (
 	<div className = "nav">
 	nav123
-	<hello/>
+	<Hello>ddd</Hello>
 	</div>
 	,document.getElementById('react'));
